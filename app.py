@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'valdez@codeaudit.com'
-app.config['MAIL_PASSWORD'] = 'efvaldez123356969'
+app.config['MAIL_PASSWORD'] = 'helloworld112233'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 app.config.update(dict( RECAPTCHA_ENABLED = True, RECAPTCHA_SITE_KEY = "6Lf3ti8UAAAAAHSO98fqkGKvDfP99T2VE_jfpwi7", RECAPTCHA_SECRET_KEY = "6Lf3ti8UAAAAAAv_LKpvRBez-FzAG7FWEIRvViV3" ))
