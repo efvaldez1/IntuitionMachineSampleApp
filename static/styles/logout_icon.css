@@ -1,0 +1,9 @@
+#logout_pos {
+	float: right;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#logout_pos:hover, button:hover{
+	color: black !important;
+}

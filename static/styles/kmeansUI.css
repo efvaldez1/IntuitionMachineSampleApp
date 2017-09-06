@@ -1,0 +1,63 @@
+/* Error and Success Message */
+
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+}
+.success {
+	padding: 20px;
+	background-color: #00cc66;
+	color: white;
+}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}
+
+#maincontainer {
+    width: 100%;
+    margin: auto;
+}
+#gridpage2, #gridpage1{
+		float:left;
+}
+@media only screen and (max-width : 1400px) {
+	#gridpage2{
+		width: 900px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 400px) {
+	#gridpage2{
+		width: 300px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+
+/* so input wouldnt be larger than parent div */
+searchdd{box-sizing:border-box !important} 
+input{box-sizing:border-box} 

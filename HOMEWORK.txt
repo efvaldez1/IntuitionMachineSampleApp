@@ -1,0 +1,2 @@
+With Fields: First Name, Last Name, Date of Birth, Email, Street Address, City, State/Region, Country, Zip, Ethereum Address, Government ID, Captcha.
+https://kin.kik.com/register/?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BYUc%2BOevcSGOr4piSP74xRw%3D%3D

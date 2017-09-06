@@ -1,0 +1,214 @@
+
+/* Error and Success Message */
+
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+}
+.success {
+	padding: 20px;
+	background-color: #00cc66;
+	color: white;
+}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}
+
+/* responsive ui */
+
+#maincontainer {
+    width: 100%;
+    margin: auto;
+}
+#gridpage2, #gridpage1{
+		float:left;
+}
+
+@media only screen and (max-width : 1400px) {
+	#gridpage2{
+		width: 900px !important;
+	}
+	#gridpage2_child{
+		width: 700px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage2_child{
+		width: 550px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1150px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage2_child{
+		width: 550px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1100px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage2_child{
+		width: 550px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1050px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage2_child{
+		width: 550px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 1000px) {
+	#gridpage2{
+		width: 495px !important;
+	}
+	#gridpage2_child{
+		width: 435px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 950px) {
+	#gridpage2{
+		width: 490px !important;
+	}
+	#gridpage2_child{
+		width: 435px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 900px) {
+	#gridpage2{
+		width: 490px !important;
+	}
+	#gridpage2_child{
+		width: 430px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 850px) {
+	#gridpage2{
+		width: 480px !important;
+	}
+	#gridpage2_child{
+		width: 430px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 800px) {
+	#gridpage2{
+		width: 480px !important;
+	}
+	#gridpage2_child{
+		width: 400px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 750px) {
+	#gridpage2{
+		width: 450px !important;
+	}
+	#gridpage2_child{
+		width: 350px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 700px) {
+	#gridpage2{
+		width: 700px !important;
+	}
+	#gridpage2_child{
+		width: 400px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 650px) {
+	#gridpage2{
+		width: 600px !important;
+	}
+	#gridpage2_child{
+		width: 400px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 600px) {
+	#gridpage2{
+		width: 600px !important;
+	}
+	#gridpage2_child{
+		width: 350px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 500px) {
+	#gridpage2{
+		width: 400px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+@media only screen and (max-width : 400px) {
+	#gridpage2{
+		width: 300px !important;
+	}
+	#gridpage1{
+		width: 280px;
+	}
+}
+
+
+/* so input wouldnt be larger than parent div */
+searchdd{box-sizing:border-box !important}
+input{box-sizing:border-box}
