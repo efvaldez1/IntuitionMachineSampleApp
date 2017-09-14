@@ -1,0 +1,17 @@
+35.105.198.81
+84.108.128.174
+246.27.47.242
+32.226.107.254
+113.39.92.98
+238.191.23.27
+94.99.63.155
+134.162.197.190
+211.181.180.137
+65.22.154.27
+
+
+a=User(email='a',password='a',is_admin=True,city='Los Angeles',geoIP='211.181.180.137',state='Manhattan',country='U.S')
+b=User(email='b',password='b',is_admin=True,city='Los Angeles',geoIP='134.162.197.190',state='Manhattan',country='U.S')
+c=User(email='c',password='c',is_admin=True,city='Los Angeles',geoIP='94.99.63.155',state='Manhattan',country='U.S')
+d=User(email='d',password='d',is_admin=True,city='Los Angeles',geoIP='94.99.63.155',state='Manhattan',country='France')
+c=User(email='admin',password='admin',is_admin=True,city='Los Angeles',geoIP='211.181.180.137',state='Manhattan',country='U.S')
